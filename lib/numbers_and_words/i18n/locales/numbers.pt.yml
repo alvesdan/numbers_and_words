@@ -1,6 +1,9 @@
 pt:
   numbers:
     union: e
+    union_separator: 'euros e'
+    union_singular_separator: 'euro e'
+    a: 'cêntimos'
     ones: [zero, um, dois, três, quatro, cinco, seis, sete, oito, nove]
     ones_twenties: [zero, um, dois, três, quatro, cinco, seis, sete, oito, nove]
     one: um

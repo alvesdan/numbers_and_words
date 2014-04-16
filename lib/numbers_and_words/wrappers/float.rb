@@ -4,7 +4,7 @@ module NumbersAndWords
       attr_accessor :number
 
       def initialize number
-        @number = number
+        @number = "%.2f" % number
       end
 
       def to_words options = {}

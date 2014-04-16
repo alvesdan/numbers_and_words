@@ -2,6 +2,15 @@ module NumbersAndWords
   module Translations
     class Pt < Base
       include NumbersAndWords::Translations::Families::Latin
+      include NumbersAndWords::Translations::Extensions::FractionSignificance
+
+      def one
+        t(:one)
+      end
+
+      def union_singular_separator
+        " #{t(:union_singular_separator)} "
+      end
 
       def tens numbers, options = {}
         options[:alone] = true if options[:alone].nil?

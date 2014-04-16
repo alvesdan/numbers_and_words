@@ -1,0 +1,8 @@
+to_words:
+  fractional:
+    0.77: 'zero euros e setenta e sete cêntimos'
+    1.50: 'um euro e cinquenta cêntimos'
+    1.88: 'um euro e oitenta e oito cêntimos'
+    21.77: 'vinte e um euros e setenta e sete cêntimos'
+    111.99: 'cento e onze euros e noventa e nove cêntimos'
+    4242.74: 'quatro mil duzentos e quarenta e dois euros e setenta e quatro cêntimos'
